@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h2>Playable Piano</h2>
+
+            <div class="column volume-slider">
+                <span>Volume</span> <input type="range" min="0" max="1" step="any" value="1">
+            </div>
+
+            <div class="column keys-checkbox">
+                <span>Show Keys</span> <input type="checkbox" checked>
+            </div>
+        </header>
+
+        <ul class="piano-keys">
+            <li class="key white" data-set="a"><span>a</span></li>
+            <li class="key black" data-set="w"><span>w</span></li>
+            <li class="key white" data-set="s"><span>s</span></li>
+            <li class="key black" data-set="e"><span>e</span></li>
+            <li class="key white" data-set="d"><span>d</span></li>
+            <li class="key white" data-set="f"><span>f</span></li>
+            <li class="key black" data-set="t"><span>t</span></li>
+            <li class="key white" data-set="g"><span>g</span></li>
+            <li class="key black" data-set="y"><span>y</span></li>
+            <li class="key white" data-set="h"><span>h</span></li>
+            <li class="key black" data-set="u"><span>u</span></li>
+            <li class="key white" data-set="j"><span>j</span></li>
+            <li class="key white" data-set="k"><span>k</span></li>
+            <li class="key black" data-set="o"><span>o</span></li>
+            <li class="key white" data-set="l"><span>l</span></li>
+            <li class="key black" data-set="p"><span>p</span></li>
+            <li class="key white" data-set=";"><span>;</span></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
